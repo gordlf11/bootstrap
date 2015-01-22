@@ -10,8 +10,16 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+.intro {
+      background: url("bootstrap/Images/skylineblackwhite.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body {
-  margin: 0;
+  margin: 0 10%;
+  padding-top: 60px;
 }
 article,
 aside,
